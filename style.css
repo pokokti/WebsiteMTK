@@ -1,0 +1,154 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #161D6F;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: white;
+    z-index: 1;
+    border-bottom: 2px solid #161D6F;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.gambar {
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #161D6F;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #161D6F;
+    width: 100%;
+    line-height: 50px;
+}
+
+.kolom .matrix {
+    width: 300px;
+    height: 180px;
+}
+
+.kolom .macam {
+    width: 400px;
+    height: 240px;
+}
+
+h1 {
+    font-family: 'comic sans ms';
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 50px;
+}
+
+.kolom .pengurangan {
+    display: block;
+    margin-right: auto;
+    width: 300px;
+    height: 80px;
+}
+
+.kolom .penjumlahan {
+    width: 300px;
+    height: 150px;
+}
+
+.kolom .skalar {
+    width: 350px;
+    height: 100px;
+}
+
+.kolom .perkalian2 {
+    display: block;
+    margin-right: auto;
+}
+
+p {
+    line-height: 25px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (max-width:991.98px) {
+    .wrapper{
+        width: 90%;
+    }
+}
